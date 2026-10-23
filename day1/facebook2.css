@@ -1,0 +1,96 @@
+.root{
+    width: 100%;
+    height: 950px;
+    background-color: white;
+}
+body{
+    margin: 0px;
+}
+.heading{
+    width: 100%;
+    height: 100px;
+    background-color: #f2f4f7;;
+}
+.logbody{
+    width: 100%;
+    height: 393px;
+    background-color: #f2f4f7;;
+}
+.img{
+        width: 240px;
+    margin-left: 637px;
+    margin-top: 36px;
+}
+.logbox{
+    width: 250px;
+    height: 310px;
+    background-color: #fff;;
+    margin-left: 556px;
+    padding-left: 145px;
+    margin-top: 17px;
+    border-radius: 8px;
+    border-color: #dddfe2;
+
+
+}
+.subroot{
+    width: 100%;
+    height: 510px;
+    background-color: #f2f4f7;
+}
+.log{
+    font-size: 18px;
+    padding-top: 24px;
+    margin-left: -20px;
+}
+.email{
+       font-size: 18px;
+    width: 356px;
+        margin-left: -128px;
+    margin-top: 4px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+    border-color: #dddfe2;
+}
+.pass{
+    font-size: 18px;
+    width: 356px;
+    margin-left: -128px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+    border-color: #dddfe2;
+}
+.button{
+    background-color: #1877f2;;
+    font-size: 18px;
+    width: 356px;
+    margin-left: -128px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+    border-color: #dddfe2;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.lang{
+        color: #8a8d91;
+    font-size: 14px;
+    margin-left: 285px;
+    margin-top: 162px;
+
+}
+.lastline{
+    color: #8a8d91;
+    font-size: 14px;
+    margin-left: 285px;
+    margin-top: 10px;
+
+}
+.hr{
+    width: 940px;
+}

@@ -1,0 +1,8 @@
+doctype html= it rep html
+<title> shown on the top cross bar
+A html has a head part and a body part
+h1 to h6 it is used to change the size of the letters
+<p> this tag is used to write paragraphs
+ <a href="https://google.com">clik mee</a>(this is used to change or open another application
+<br> used to brack paragraphs 
+<hr> used to divide or it makes a vertical line

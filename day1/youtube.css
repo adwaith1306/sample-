@@ -1,0 +1,152 @@
+/* Base resets and font */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  background-color: #ff0000;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 56px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: -1px;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  margin-left: 20px;
+  flex-grow: 1;
+  max-width: 600px;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  padding: 6px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px 0 0 2px;
+  outline: none;
+}
+
+.search-bar button {
+  background: #cc0000;
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  cursor: pointer;
+  border-radius: 0 2px 2px 0;
+  transition: background 0.3s;
+}
+
+.search-bar button:hover {
+  background: #990000;
+}
+
+/* Container for sidebar and main content */
+.container {
+  display: flex;
+  flex-grow: 1;
+  min-height: 0;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: white;
+  border-right: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #444;
+  transition: background-color 0.2s;
+}
+
+.sidebar ul li:hover,
+.sidebar ul li.active {
+  background-color: #e5e5e5;
+  font-weight: bold;
+}
+
+/* Main content */
+.content {
+  flex-grow: 1;
+  padding: 20px 24px;
+  overflow-y: auto;
+}
+
+.content h2 {
+  margin-bottom: 16px;
+}
+
+/* Video grid */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px, 1fr));
+  gap: 16px;
+}
+
+/* Video card */
+.video-card {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.video-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.thumbnail {
+  background: #ccc;
+  height: 160px;
+  width: 100%;
+}
+
+/* Video Info */
+.video-info {
+  padding: 12px 16px;
+}
+
+.video-info h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.video-info p {
+  font-size: 14px;
+  color: #666;
+}

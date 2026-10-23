@@ -1,0 +1,40 @@
+.mainb{
+    background-color: #BCE8E2;
+}
+.parent{
+    height: 600px;
+    width: 400px;
+    border:5px solid rgb(79, 14, 177);
+    margin-left: 500px;
+    margin-top: 30px;
+    background-color: #775B6A;
+    border-radius: 20px;
+}
+#screen{
+    height: 60px;
+    width: 350px;
+    border: 3px solid #775B6A;
+    background-color: #ffff;
+    border-radius: 15px;
+    margin-left: 23px;
+    margin-top: 45px;
+    pointer-events: none;
+
+
+}
+.btn{
+    width: 57px;
+    height: 30px;
+    margin-left: 33px;
+    margin-top: 50px;
+    background-color: #829277;
+
+}
+.opbtn{
+    width: 57px;
+    height: 30px;
+    margin-left: 33px;
+    margin-top: 50px;
+    background-color: #E33121;
+
+}
